@@ -9,3 +9,7 @@
 - 獲取載入
 - 整併轉換
 - 摘要探索
+
+## TL; DR
+
+我們定義了一個函式 `get_latest_daily_report()` 將約翰霍普金斯大學 [COVID-19 Data Repository](https://github.com/CSSEGISandData/COVID-19) 中最新的每日報告載入成為資料框，並從資料框中將四個關鍵數字摘要出來，再使用 f-Strings 以及 `format()` 方法將大流行全球現況以維基百科頁面的格式印出為一段敘述文字。
